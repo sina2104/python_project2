@@ -5,7 +5,7 @@ from aiogram import Bot, Dispatcher, executor, types
 from sqlighter import SQLighter
 
 
-bot = Bot(token=config.TOKEN1)
+bot = Bot(token=config.TOKEN)
 d_bot = Dispatcher(bot)
 sq = SQLighter('sql_base.db')
 
