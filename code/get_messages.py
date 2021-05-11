@@ -8,6 +8,9 @@ bot = Bot(token=config.TOKEN)
 
 
 def get_messages(message):
+    '''
+    Функция, с помощью которой анализируем сообщения и отправим данные
+    '''
     weather = requests.get(config.WEATHER)
     news = requests.get(config.NEWS)
     html = our_BS(weather.content, 'html.parser')
