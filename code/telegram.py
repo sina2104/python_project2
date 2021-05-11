@@ -12,6 +12,9 @@ sq = SQLighter('sql_base.db')
 
 @d_bot.message_handler(commands=['start', 'help'])
 async def welcome(message):
+    '''
+    С помошью /start и /help приветствуем пользователя и задаём нужные кнопки для получения данных
+    '''
     markup = types.ReplyKeyboardMarkup(resize_keyboard=True)
     item1 = types.KeyboardButton("Погода сегодня")
     item2 = types.KeyboardButton("Погода недели")
