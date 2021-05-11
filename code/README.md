@@ -9,6 +9,13 @@
 [открыть](https://t.me/Sina_weather_bot)
 ***
 ---
+### Набор команд
+1. /start - начать бот
+2. /sub, /subscribe - подписаться
+3. /unsub, /unsubscribe - отказаться от подписки
+4. Погода сегодня
+5. Погода недели
+6. Новости сегодня
 ### Запуск бота:
 ```shell
    git clone https://github.com/sina2104/python_project2 -b dev1
