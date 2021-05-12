@@ -27,7 +27,7 @@ def get_messages(message):
         send_message = f"Cегодня {t_day} {date} {month}\n\n{time} {temp}\n\n{t_min}, {t_max}\n\n{text}"
 
     elif message.text == 'Погода недели':
-        send_message = f"погода на этой неделе:\n"
+        send_message = "погода на этой неделе:\n"
         for i in range(1, 7):
             month = html.select(f"#bd{i} .month")[0].text
             t_min = html.select(f"#bd{i} .temperature .min")[0].text
