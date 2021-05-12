@@ -1,6 +1,5 @@
 import config
 from get_messages import get_messages
-from telebot import types
 from aiogram import Bot, Dispatcher, executor, types
 from sqlighter import SQLighter
 
