@@ -24,8 +24,7 @@ async def welcome(message):
     await bot.send_message(message.chat.id, "Добро пожаловать!\n"
                                             "Я - Sina_moscow_bot,\n"
                                             "бот в котором Сина скажет тебе всё, что москвичу надо!\n"
-                                            "Чтобы продолжать, нажмите пожалуйста на /subscribe".format(
-                                             message.from_user, bot.get_me()),
+                                            "Чтобы продолжать, нажмите пожалуйста на /subscribe",
                                             parse_mode='html', reply_markup=markup)
     d_bot.message_handler(content_types=['text'])
 
