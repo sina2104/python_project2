@@ -1,7 +1,7 @@
+from aiogram import Bot
+from bs4 import BeautifulSoup as our_BS
 import config
 import requests
-from bs4 import BeautifulSoup as our_BS
-from aiogram import Bot
 
 
 bot = Bot(token=config.TOKEN)
