@@ -1,6 +1,6 @@
+from aiogram import Bot, Dispatcher, executor, types
 import config
 from get_messages import get_messages
-from aiogram import Bot, Dispatcher, executor, types
 from sqlighter import SQLighter
 
 
