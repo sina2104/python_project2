@@ -9,6 +9,10 @@
 [открыть](https://t.me/Sina_weather_bot)
 ***
 ---
+### Ссылка на heroku:
+[открыть](https://dashboard.heroku.com/apps/telegram-bot-sina)
+***
+---
 ### Набор команд
 1. /start - начать бот
 2. /sub, /subscribe - подписаться
