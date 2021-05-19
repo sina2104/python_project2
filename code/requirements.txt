@@ -1,0 +1,4 @@
+aiogram==2.13
+beautifulsoup4==4.9.3
+requests==2.22.0
+
